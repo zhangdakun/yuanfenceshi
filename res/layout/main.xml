@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10.0dip"
+            android:text="@string/app_name"
+            android:textColor="#ff880000"
+            android:textSize="20.0dip" />
+
+        <TextView
+            android:id="@id/quesiont"
+            style="@style/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25.0dip"
+            android:background="@drawable/di"
+            android:gravity="fill_vertical"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="5.0dip" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/di"
+            android:orientation="vertical"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip" >
+
+            <RadioButton
+                android:id="@id/answer1"
+                style="@style/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+
+            <RadioButton
+                android:id="@id/answer2"
+                style="@style/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+
+            <RadioButton
+                android:id="@id/answer3"
+                style="@style/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+        </RadioGroup>
+
+        <Button
+            android:id="@id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/next_btn"
+            android:textSize="18.0sp" />
+
+        <LinearLayout
+            android:id="@id/miniAdLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip" />
+    </LinearLayout>
+
+</ScrollView>

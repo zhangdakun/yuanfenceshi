@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/back" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff880000" android:gravity="left" android:id="@id/Overtext1" android:paddingLeft="15.0dip" android:paddingTop="60.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <Button android:id="@id/back" android:background="@drawable/but1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/Overtext1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/exit" android:background="@drawable/but2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/Overtext1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

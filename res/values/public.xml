@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="back" id="0x7f020000" />
+    <public type="drawable" name="but1" id="0x7f020001" />
+    <public type="drawable" name="but2" id="0x7f020002" />
+    <public type="drawable" name="di" id="0x7f020003" />
+    <public type="drawable" name="icon" id="0x7f020004" />
+    <public type="drawable" name="menu" id="0x7f020005" />
+    <public type="drawable" name="menubg" id="0x7f020006" />
+    <public type="drawable" name="next_btn" id="0x7f020007" />
+    <public type="drawable" name="next_btn_normal" id="0x7f020008" />
+    <public type="drawable" name="next_btn_press" id="0x7f020009" />
+    <public type="drawable" name="result" id="0x7f02000a" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="menu" id="0x7f030001" />
+    <public type="layout" name="mylayout" id="0x7f030002" />
+    <public type="raw" name="one" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f050000" />
+    <public type="style" name="question" id="0x7f060000" />
+    <public type="style" name="answer" id="0x7f060001" />
+    <public type="id" name="quesiont" id="0x7f070000" />
+    <public type="id" name="answer1" id="0x7f070001" />
+    <public type="id" name="answer2" id="0x7f070002" />
+    <public type="id" name="answer3" id="0x7f070003" />
+    <public type="id" name="nextButton" id="0x7f070004" />
+    <public type="id" name="miniAdLinearLayout" id="0x7f070005" />
+    <public type="id" name="start" id="0x7f070006" />
+    <public type="id" name="Overtext1" id="0x7f070007" />
+    <public type="id" name="back" id="0x7f070008" />
+    <public type="id" name="exit" id="0x7f070009" />
+</resources>

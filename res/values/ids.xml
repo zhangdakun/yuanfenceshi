@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="quesiont">false</item>
+    <item type="id" name="answer1">false</item>
+    <item type="id" name="answer2">false</item>
+    <item type="id" name="answer3">false</item>
+    <item type="id" name="nextButton">false</item>
+    <item type="id" name="miniAdLinearLayout">false</item>
+    <item type="id" name="start">false</item>
+    <item type="id" name="Overtext1">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="exit">false</item>
+</resources>
